@@ -5,7 +5,7 @@
             "url": "Packages/*"
         }
     },
-    "name": "helhum/typo3-console",
+    "name": "venus-gmbh/typo3-console",
     "description": "A reliable and powerful command line interface for TYPO3 CMS",
     "keywords": [
         "TYPO3",
