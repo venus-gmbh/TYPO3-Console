@@ -34,7 +34,7 @@ future.
 In case you use Composer to manage dependencies of your TYPO3 project, you can
 just issue the following Composer command in your project root directory::
 
-   composer require helhum/typo3-console
+   composer require venus-gmbh/typo3-console
 
 The `typo3cms` binary will be installed by Composer in the specified bin-dir
 (by default `vendor/bin`).

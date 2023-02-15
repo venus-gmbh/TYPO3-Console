@@ -7,7 +7,7 @@ declare(strict_types=1);
         // Console is root package, thus vendor folder is .Build/vendor
         $classLoader = require $vendorAutoLoadFile;
     } elseif (file_exists($vendorAutoLoadFile = dirname(dirname(dirname(__DIR__))) . '/autoload.php')) {
-        // Console is a dependency, thus located in vendor/helhum/typo3-console
+        // Console is a dependency, thus located in vendor/venus-gmbh/typo3-console
         $classLoader = require $vendorAutoLoadFile;
     } else {
         echo 'Could not find autoload.php file. TYPO3 Console needs to be installed with composer' . PHP_EOL;

@@ -60,8 +60,8 @@ class PopulateCommandConfiguration implements InstallerScript
                 $commandConfiguration[] = $packageConfig;
             }
         }
-        $generatedConfigFilePath = $composerConfig->get('vendor-dir') . '/helhum/typo3-console/Configuration/ComposerPackagesCommands.php';
-        if ($composer->getPackage()->getName() === 'helhum/typo3-console') {
+        $generatedConfigFilePath = $composerConfig->get('vendor-dir') . '/venus-gmbh/typo3-console/Configuration/ComposerPackagesCommands.php';
+        if ($composer->getPackage()->getName() === 'venus-gmbh/typo3-console') {
             $generatedConfigFilePath = $basePath . '/Configuration/ComposerPackagesCommands.php';
         }
 
@@ -112,11 +112,11 @@ class PopulateCommandConfiguration implements InstallerScript
         $sortedPackages = PackageSorter::sortPackages($packages);
 
         $sortedPackageMap = [];
-        $sortedPackageMap[] = [$packages['helhum/typo3-console'], $paths['helhum/typo3-console']];
+        $sortedPackageMap[] = [$packages['venus-gmbh/typo3-console'], $paths['venus-gmbh/typo3-console']];
 
         foreach ($sortedPackages as $package) {
             $name = $package->getName();
-            if ($name === 'helhum/typo3-console') {
+            if ($name === 'venus-gmbh/typo3-console') {
                 continue;
             }
             $sortedPackageMap[] = [$packages[$name], $paths[$name]];

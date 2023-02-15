@@ -25,7 +25,7 @@
     "support": {
         "issues": "https://github.com/TYPO3-Console/TYPO3-Console/issues",
         "source": "https://github.com/TYPO3-Console/TYPO3-Console",
-        "docs": "https://docs.typo3.org/p/helhum/typo3-console/main/en-us/"
+        "docs": "https://docs.typo3.org/p/venus-gmbh/typo3-console/main/en-us/"
     },
     "authors": [
         {
@@ -54,7 +54,7 @@
         }
     },
     "require": {
-        "helhum/typo3-console": "@dev",
+        "venus-gmbh/typo3-console": "@dev",
         "typo3/cms-core": "^11.5.3 || dev-main"
     },
     "replace": {

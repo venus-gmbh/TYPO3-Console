@@ -6,7 +6,7 @@
 TYPO3 Console
 =============
 
-:Package:      helhum/typo3-console
+:Package:      venus-gmbh/typo3-console
 :Version:      |release|
 :Language:     en
 :Author:       Helmut Hummel & Contributors

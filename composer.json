@@ -18,7 +18,7 @@
     "support": {
         "issues": "https://github.com/TYPO3-Console/TYPO3-Console/issues",
         "source": "https://github.com/TYPO3-Console/TYPO3-Console",
-        "docs": "https://docs.typo3.org/p/helhum/typo3-console/main/en-us/"
+        "docs": "https://docs.typo3.org/p/venus-gmbh/typo3-console/main/en-us/"
     },
     "authors": [
         {
@@ -112,12 +112,12 @@
             "rm ../extension/composer.lock",
             "rm ../extension/composer.json.bak",
             "rm -rf ../extension/Libraries/bin/",
-            "rm -rf ../extension/Libraries/helhum/typo3-console/Packages/",
-            "rm -rf ../extension/Libraries/helhum/typo3-console/Resources/Private/ExtensionArtifacts/",
-            "rm -rf ../extension/Libraries/helhum/typo3-console/Resources/Private/Patches/",
-            "rm -rf ../extension/Libraries/helhum/typo3-console/Tests/",
-            "rm -rf ../extension/Libraries/helhum/typo3-console/.github/",
-            "mv ../extension/Libraries/helhum/typo3-console/Documentation/ ../extension/"
+            "rm -rf ../extension/Libraries/venus-gmbh/typo3-console/Packages/",
+            "rm -rf ../extension/Libraries/venus-gmbh/typo3-console/Resources/Private/ExtensionArtifacts/",
+            "rm -rf ../extension/Libraries/venus-gmbh/typo3-console/Resources/Private/Patches/",
+            "rm -rf ../extension/Libraries/venus-gmbh/typo3-console/Tests/",
+            "rm -rf ../extension/Libraries/venus-gmbh/typo3-console/.github/",
+            "mv ../extension/Libraries/venus-gmbh/typo3-console/Documentation/ ../extension/"
         ],
         "extension-clean": [
             "rm -rf ../extension/*"
